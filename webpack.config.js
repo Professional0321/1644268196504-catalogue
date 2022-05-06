@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/client.jsx',
+  entry: ['regenerator-runtime/runtime.js', './src/client.jsx'],
   devServer: {
     contentBase: './dist',
     historyApiFallback: true
