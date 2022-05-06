@@ -8,6 +8,7 @@ import Image from "@tds/core-image";
 import Text from "@tds/core-text";
 import { colorTelusPurple } from "@tds/core-colours";
 import styled from "styled-components";
+import iPhoneImg from '../../static/img/iphone.jpg'
 
 const StyledParagraph = styled.p({
   color: colorTelusPurple,
@@ -26,7 +27,7 @@ const IPhones = () => {
             <Card variant="defaultWithBorder">
               <Box vertical={3}>
                 <Image
-                  src="https://media.istockphoto.com/photos/silver-colored-mobile-phone-mockup-with-white-screen-picture-id1307689983?b=1&k=20&m=1307689983&s=170667a&w=0&h=-Cd7BTXZst6gDpkO_j19j2qz9XanY9YCdjtem25vG8w="
+                  src={iPhoneImg}
                   rounded="corners"
                   width={200}
                   height={200}
@@ -50,7 +51,7 @@ const IPhones = () => {
             <Card variant="defaultWithBorder">
               <Box vertical={2}>
                 <Image
-                  src="https://media.istockphoto.com/photos/silver-colored-mobile-phone-mockup-with-white-screen-picture-id1307689983?b=1&k=20&m=1307689983&s=170667a&w=0&h=-Cd7BTXZst6gDpkO_j19j2qz9XanY9YCdjtem25vG8w="
+                  src={iPhoneImg}
                   rounded="corners"
                   width={200}
                   height={200}
@@ -74,7 +75,7 @@ const IPhones = () => {
             <Card variant="defaultWithBorder">
               <Box vertical={2}>
                 <Image
-                  src="https://media.istockphoto.com/photos/silver-colored-mobile-phone-mockup-with-white-screen-picture-id1307689983?b=1&k=20&m=1307689983&s=170667a&w=0&h=-Cd7BTXZst6gDpkO_j19j2qz9XanY9YCdjtem25vG8w="
+                  src={iPhoneImg}
                   rounded="corners"
                   width={200}
                   height={200}

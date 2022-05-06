@@ -10,6 +10,7 @@ import Image from '@tds/core-image'
 import Text from "@tds/core-text";
 import styled from 'styled-components';
 import { colorTelusPurple } from '@tds/core-colours'
+import WatchImg from '../../static/img/watch.jpg'
 
 const StyledParagraph = styled.h2({
     color: colorTelusPurple,
@@ -34,10 +35,10 @@ const Watches = () => {
                         <Card variant="defaultWithBorder">
                             <Box vertical={2}>
                                 <Image
-                                    src="https://media.istockphoto.com/photos/luxury-watch-isolated-on-white-background-with-clipping-path-for-or-picture-id1180244659?b=1&k=20&m=1180244659&s=170667a&w=0&h=apyCu-r2h8VxOltgwqfC8rdhBPZsw2xtch_LFlKvFrM="
+                                    src={WatchImg}
                                     rounded="corners"
-                                    width={300}
-                                    height={300}
+                                    width={150}
+                                    height={150}
                                     alt="watch"
                                 />
                                 <Heading level="h4">Apple</Heading>
@@ -74,10 +75,10 @@ const Watches = () => {
                         <Card variant="defaultWithBorder">
                             <Box vertical={2}>
                                 <Image
-                                    src="https://media.istockphoto.com/photos/luxury-watch-isolated-on-white-background-with-clipping-path-for-or-picture-id1180244659?b=1&k=20&m=1180244659&s=170667a&w=0&h=apyCu-r2h8VxOltgwqfC8rdhBPZsw2xtch_LFlKvFrM="
+                                    src={WatchImg}
                                     rounded="corners"
-                                    width={300}
-                                    height={300}
+                                    width={150}
+                                    height={150}
                                     alt="watch"
                                 />
                                 <Heading level="h4">Apple</Heading>
@@ -114,10 +115,10 @@ const Watches = () => {
                         <Card variant="defaultWithBorder">
                             <Box vertical={2}>
                                 <Image
-                                    src="https://media.istockphoto.com/photos/luxury-watch-isolated-on-white-background-with-clipping-path-for-or-picture-id1180244659?b=1&k=20&m=1180244659&s=170667a&w=0&h=apyCu-r2h8VxOltgwqfC8rdhBPZsw2xtch_LFlKvFrM="
+                                    src={WatchImg}
                                     rounded="corners"
-                                    width={300}
-                                    height={300}
+                                    width={150}
+                                    height={150}
                                     alt="watch"
                                 />
                                 <Heading level="h4">Apple</Heading>
